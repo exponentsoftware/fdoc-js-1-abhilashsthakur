@@ -7,15 +7,20 @@
 // #####
 // ######
 // #######
+// ```
 
 function triangle(num){
 
-    for(let i=0;i<=num;i++)
+    for(var i=0;i<num;i++)
+    var l=""
         {
             for(let j=1;j<=i;j++){
-
-                console.log("#")
+                    
+                l+="#"
+                
+                console.log(l)
             }
+            
             console.log("\n")
         }
     
